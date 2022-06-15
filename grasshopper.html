@@ -1,0 +1,28 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./grasshopper.js"></script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+  const ctx = document.getElementById('myChart');
+  const myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: Object.keys(window.positionMap),
+      datasets: [
+        {
+          label: '# of Times in each position',
+          data: Object.values(window.positionMap),
+          backgroundColor: ['rgba(54, 162, 235, 0.2)'],
+          borderColor: ['rgba(54, 162, 235, 1)'],
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+</script>
