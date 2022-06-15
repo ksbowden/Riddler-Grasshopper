@@ -12,5 +12,5 @@ The grasshopper is least likely to be found at either end of the beam. Each end 
 
 >And what is the ratio between these respective probabilities?
 
-Ratio of least likely to most likely (single position): 2.00 (1.117% / 0.559%)
-Ratio of least likely to most likely (entire middle section): 117.9 (65.93% / 0.559%)
+- Ratio of least likely to most likely (single position): 2.00 (1.117% / 0.559%)
+- Ratio of least likely to most likely (entire middle section): 117.9 (65.93% / 0.559%)
