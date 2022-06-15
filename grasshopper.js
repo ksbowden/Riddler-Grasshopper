@@ -1,5 +1,5 @@
 const BEAM_MIN = 0;
-const BEAM_MAX = 100;
+const BEAM_MAX = 99;
 const MAX_HOP_DISTANCE = 20;
 const NUM_HOPS = 100000000;
 
@@ -40,7 +40,7 @@ class Grasshopper {
   }
 
   _randomInRange(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 }
 
