@@ -14,3 +14,6 @@ The grasshopper is least likely to be found at either end of the beam. Each end 
 
 - Ratio of least likely to most likely (single position): 2.00 (1.117% / 0.559%)
 - Ratio of least likely to most likely (entire middle section): 117.9 (65.93% / 0.559%)
+
+## My Method
+I'm not very good at stats and probability, so I decided to simulate it and plot the results. I simulated the grashopper hopping 100,000,000 times and generated this graph as a result:
