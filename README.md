@@ -16,4 +16,6 @@ The grasshopper is least likely to be found at either end of the beam. Each end 
 - Ratio of least likely to most likely (entire middle section): 117.9 (65.93% / 0.559%)
 
 ## My Method
-I'm not very good at stats and probability, so I decided to simulate it and plot the results. I simulated the grashopper hopping 100,000,000 times and generated this graph as a result:
+I'm not very good at stats and probability, so I decided to simulate it and plot the results. I simulated the grashopper hopping 100,000,000 times and generated this graph as a result (you can also load it yourself [here](https://ksbowden.github.io/Riddler-Grasshopper/grasshopper.html)):
+
+<img width="1680" alt="Screen Shot 2022-06-15 at 5 28 54 PM" src="https://user-images.githubusercontent.com/12500905/173933157-39d49f99-dd79-4d5b-9bd4-155ed5c59996.png">
