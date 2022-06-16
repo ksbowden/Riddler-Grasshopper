@@ -1,7 +1,7 @@
 const BEAM_MIN = 0;
 const BEAM_MAX = 99;
 const MAX_HOP_DISTANCE = 20;
-const NUM_HOPS = 100000000;
+const NUM_HOPS = 10000000;
 
 class Grasshopper {
   constructor() {
